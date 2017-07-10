@@ -1,0 +1,491 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:300,400,700&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Didact+Gothic');
+
+
+html, body  {height: 100%;}
+
+			/* Страница - Резюме */
+
+			/* Хедер */
+
+.navbar  	{
+			margin: 0px;
+			background-color: white;
+			border: 0px
+			}
+#header1	{
+			padding: 0px;
+			}
+#menu-buttons.navbar-nav
+			{
+			position: fixed; top: 0;left: 0; z-index:1;
+			width: 100%;
+			background: #fff;
+			}
+.navbar-default{height: auto;}
+.navbar-nav {
+			text-align: center;
+			font-size: 18px;
+			font-family: 'Comfortaa', cursive;
+			color: black;
+			line-height: 93px;
+			letter-spacing: 0.8px;
+			}
+.navbar-nav li 
+			{
+			float: none;
+			display: inline-block;
+			}
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:focus, 
+.navbar-default .navbar-nav>.active>a:hover 
+			{
+		    color: black;
+		    background-color: white;
+		    text-decoration: underline;
+		    font-weight: bolder;
+		    }
+#menu-buttons li a:hover{
+			color: #B3B3B3;
+			}
+#menu-buttons li a:active{
+			color: black;
+			text-decoration: underline;
+			background-color: white
+			}
+.navbar-toggle {
+		    position: fixed; top: 0;right: 0; z-index:2;
+		    padding: 9px 10px;
+		    margin-top: 8px;
+		    margin-right: 15px;
+		    margin-bottom: 8px;
+		    background-color: #fff;
+		    background-image: none;
+		    border: 1px solid transparent;
+		    border-radius: 4px;
+			}
+
+/* Попытка разобраться с @media */
+
+@media (max-width: 768px) 
+			{
+.navbar-nav>li
+			{
+			display: block;
+			}
+			}
+
+a h1:hover  {
+			color: black;
+			text-decoration: none;
+			}
+a:hover:	{
+			text-decoration: none;
+			color: #B3B3B3;
+			}
+a.dalee 	{font-size:16px;
+			line-height: 24px;
+			letter-spacing: 1px;
+			font-family: 'Comfortaa', cursive;
+			color: #940030;
+			}
+a.dalee: after {content: '';
+			}
+#logo   	{margin-top: 93px}
+.logo		{
+			margin-top:30px;
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			height: 127px;
+			width: 128px;
+			}
+.logo       {background: url(../img/logo-sprite.png) 0 0 no-repeat;}
+.logo:hover {background: url(../img/logo-sprite.png) -132px 0 no-repeat;}
+.decoration-line
+			{
+			width: 100%;
+			height: 59px;
+			margin-top: -15px;
+			text-align: center;
+		    }
+
+			/* Основная типографика */
+
+h1 			{font-size:32px;
+			line-height: 93px;
+			font-family: 'Comfortaa', cursive;
+			color: black;
+			}
+h2          {font-size:36px;
+			line-height: 78px;
+			letter-spacing: 0.4px;
+			font-family: 'Didact Gothic', sans-serif;
+			color: black;
+			}
+h3          {font-size:30px;
+			line-height: 68px;
+			font-family: 'Didact Gothic', sans-serif;
+			color: black;
+			}
+h4          {font-size:28px;
+			line-height: 62px;
+			font-family: 'Didact Gothic', sans-serif;
+			color: black;
+			}
+p           {font-size:18px;
+			line-height: 26px;
+			letter-spacing: 1px;
+			font-family: 'Comfortaa', cursive;
+			color: black;
+			font-weight: lighter;
+			}
+
+			/* Контент */
+
+#working 	{
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 50px;
+			-webkit-box-shadow: -16px 20px 50px -26px rgba(0,0,0,0.68);
+			-moz-box-shadow: -16px 20px 50px -26px rgba(0,0,0,0.68);
+			box-shadow: -16px 20px 50px -26px rgba(0,0,0,0.68);
+			border-radius:190px}
+.text1 		{
+			height: 100%;			;
+			}
+blockquote  {
+			font-size: 20px;
+			font-family: 'Comfortaa', cursive;
+			line-height: 28px;
+			letter-spacing: 0.4px;
+			padding-top: 30%;
+			padding-left:8%;
+			border-left: 0px;
+			}
+div#circle1 {line-height: 70px
+			 }
+img.circle1 {
+			height: 35px;
+			width: 35px;
+			}
+.progress-bar
+			{
+        	background-color: #4D4D4D;
+    		}
+#hobby 		{display: block;
+			margin-left: auto;
+			margin-right: auto;
+			text-align: center;
+			height:80%; 
+			width:80%;
+			}
+figcaption  {
+			font-size:22px;
+			line-height: 83px;
+			letter-spacing: 0.8px;
+			font-family: 'Comfortaa', cursive;
+			color: black;
+			}
+#hobby 		{
+			max-width:381px;
+			-webkit-box-shadow: -16px 20px 50px -26px rgba(0,0,0,0.68);
+			-moz-box-shadow: -16px 20px 50px -26px rgba(0,0,0,0.68);
+			box-shadow: -16px 20px 50px -26px rgba(0,0,0,0.68);
+			border-radius:190px}
+
+			/* Планы */
+
+ul 			{
+			list-style: none;
+			}
+ul.text-left,.text-right {
+			font-size:22px;
+			line-height: 34px;
+			font-family: 'Didact Gothic', sans-serif;
+			color: black;
+			}
+ul.text-left li
+			{
+			position: relative;
+			margin-top: 90px;
+			}
+ul.text-left li 
+			{
+			margin-left: 150px
+			}
+ul.text-left li.comp:before 
+			{
+			content: '';
+			width: 110px;
+			height: 110px;
+			position: absolute; bottom: 0;left: -140px;
+			background: url(../img/computer.png) 0 0 no-repeat;
+			}
+ul.text-left li.programs:before 
+			{
+			content: '';
+			width: 110px;
+			height: 110px;
+			position: absolute; bottom: 0;left: -140px;
+			background: url(../img/computer2.png) 0 0 no-repeat;
+			}
+ul.text-left li.yoga
+			{margin-top: 100px}
+ul.text-left li.yoga:before 
+			{
+			content: '';
+			width: 110px;
+			height: 110px;
+			position: absolute; bottom: 0px;left: -140px;
+			background: url(../img/yoga.png) 0 0 no-repeat;
+			}
+ul.text-right li
+			{
+			position: relative;
+			}
+ul.text-right li
+			{
+			margin-right: 190px
+			}
+ul.text-right li.child 
+			{margin-top: 93px}
+ul.text-right li.child:after 
+			{
+			content: '';
+			width: 110px;
+			height: 110px;
+			position: absolute; bottom: 0px;right: -140px;
+			background: url(../img/child.png) 0 0 no-repeat;
+			}
+ul.text-right li.sea 
+			{margin-top: 93px}
+ul.text-right li.sea:after 
+			{
+			content: '';
+			width: 110px;
+			height: 110px;
+			position: absolute; bottom: 0px;right: -140px;
+			background: url(../img/sea.png) 0 0 no-repeat;
+			}
+ul.text-right li.sleep {margin-top: 93px}
+ul.text-right li.sleep:after 
+			{
+			content: '';
+			width: 110px;
+			height: 110px;
+			position: absolute; bottom: -20px;right: -140px;
+			background: url(../img/sleep.png) 0 0 no-repeat;
+			}
+	
+#plans      {
+			min-height: 100%;
+			max-height: auto
+			}
+
+.rasporka  	{
+			height: 150px;
+			}
+
+			/* Футер */
+
+footer		{background-color: black;
+			text-align: center;
+			height: 93px;
+			position: absolute; left: 0; bottom: 0; width: 100%;
+			box-sizing: border-box;
+			}
+.wrapper    {
+			position: relative;
+			min-height: 100%;
+			}	
+#Copyright  {
+			font-size:18px;
+			line-height: 83px;
+			letter-spacing: 0.8px;
+			font-family: 'Comfortaa', cursive;
+			color:white; 
+			}
+
+			/* Страница - Опрос */
+
+.question 	{margin-top: 38px;
+			margin-bottom: 16px }
+#Question-Mark
+			{
+			width: 193px;
+ 			height:319px;
+ 			}
+label.figure{
+			font-size:18px;
+			line-height: 32px;
+			letter-spacing: 1px;
+			font-family: 'Comfortaa', cursive;
+			color: black;
+			font-weight: lighter;
+			padding: 0px;
+		    margin: 5px;
+		    cursor: pointer;
+		    width: 350px;
+		    }	
+label 		{
+			font-size:18px;
+			line-height: 32px;
+			letter-spacing: 1px;
+			font-family: 'Comfortaa', cursive;
+			color: black;
+			font-weight: lighter;
+		    padding-left: 0px;
+		    margin-bottom: 0;
+		    cursor: pointer;}
+input[type="checkbox"]
+		 	{ 
+		 	display: none;
+		    }
+
+input[type="checkbox"] + label span {
+    		display: inline-block;
+			width: 30px;
+	 		height: 30px;
+	 		background: url(../img/input-sprite.png) 0 0 no-repeat;
+	 		position: relative; top: 10px;
+	 		margin: 5px;
+ 		    }
+input[type="checkbox"]:checked + label span
+			{
+			background-position: -32px
+			}
+.form-control
+			{
+			height: 50px;
+			max-width: 1040px;
+			font-size:22px;
+			line-height: 32px;
+			letter-spacing: 1px;
+			font-family: 'Comfortaa', cursive;
+			color: black;
+			font-weight: lighter;
+		    padding: 10px;
+		    margin-bottom: 0;
+		    cursor: pointer;
+			}
+input[type="radio"]
+		 	{ 
+		 	display: none;
+		 	}
+input[type="radio"] + label span 
+			{
+    		display: inline-block;
+			width: 30px;
+	 		height: 30px;
+	 		background: url(../img/input-sprite2.png) 0 0 no-repeat;
+	 		position: relative; top: 12px;
+	 		margin: 5px;
+	 		}
+input[type="radio"]:checked + label span 
+			{
+			background-position: -32px 0
+			}
+figure.input{
+			margin-top: 10px;
+			padding: 10px;
+			padding: 0;
+			height: 90%;
+			width: 90%;
+			}
+ul.questions{list-style: none;}    
+ul.questions li 
+			{
+			position: relative;
+			margin-bottom: 1px
+			}
+ul.questions li:before 
+			{
+			content: '';
+			width: 20px; 
+			height: 20px;
+			position: absolute; top: 24px; left: -30px;
+			background: url(../img/circle2.png) 0 0 no-repeat;
+			}
+    		
+			/* Страница - Новости */
+
+#news-icon  {
+			max-height: 300px:
+			max-width: 300px;
+			display: block;
+			margin-top: 85px;
+			margin-left: auto;
+			margin-right: auto;
+			} 
+small 	    {
+			margin-left: 10px
+			}
+ul.news-list li{margin-top: 50px}
+
+/* Попытка разобраться с @media */
+
+article.news img { 
+			max-width: 40%;
+			float: left;
+			}
+article div.news-wrapper
+			{
+			margin-left: 500px;
+			}	
+@media (max-width: 1199px) 
+			{
+article.news img {max-width: 40%}
+article div.news-wrapper
+			{
+			margin-left: 415px;
+			}
+			}	
+@media (max-width: 992px) 
+			{
+			article div.news-wrapper{margin-left: 10px}
+			article.news img {max-width: 100%}
+			}
+
+			/* Пагинация */
+
+ul.pagination
+			{
+			margin-top: 50px;
+			}
+.pagination > li > a, 
+.pagination > li > span 
+			{
+		    color: black;
+		    text-decoration: none;
+		    background-color: #fff;
+		    font-family: 'Comfortaa', cursive;
+		    border: 0px;
+			}
+.pagination > .active > a, 
+.pagination > .active > a:focus, 
+.pagination > .active > a:hover, 
+.pagination > .active > span, 
+.pagination > .active > span:focus, 
+.pagination > .active > span:hover 
+			{
+		    color: white;
+		    background-color: black;
+		    font-family: 'Comfortaa', cursive;
+			}
+.pagination > li > a:focus, 
+.pagination > li > a:hover, 
+.pagination > li > span:focus, 
+.pagination > li > span:hover 
+			{
+		    color: gray;
+		    background-color: white;
+		    border-width: 1px;
+		    border-color: black;
+			font-family: 'Comfortaa', cursive;
+			text-decoration: underline;
+			}
+ 
+			
+

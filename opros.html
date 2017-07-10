@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	<!-- META -->
+	<meta charset="utf-8">
+	<meta name="vievport" content="width=device-width, initial-scale=1.0">
+	<!-- FAVICON -->
+	<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+	<!-- SEO -->
+	<meta name="Description" content="Ирина личный сайт">
+	<meta name="Robots" content="index,follow">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css">
+	<!-- TITLE -->
+	<title>Ирина Опрос</title>
+	</head>
+	<body>
+	    <header>
+		    <nav class="navbar navbar-default" role="navigation">
+		    	<div class="container" >
+			    	<!-- Menu -->
+				    <div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+					</div>
+					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+						<ul id="menu-buttons" class="nav navbar-nav">
+							<li><a href="#">Главная</a></li>
+							<li><a href="index.html">Резюме</a></li>
+							<li><a href="#">Портфолио</a></li>
+							<li class="active"><a href="opros.html">Опрос<span class="sr-only">(поточний)</span></a></li>
+							<li><a href="news.html">Новости</a></li>
+						</ul>
+					</div><!-- /.navbar-collapse -->
+					<!-- Лого -->
+					<div id="logo" class="row">
+		    			<div class="col-md-2 col-md-offset-5">
+		    				<a class="logo" href="index.html">
+		    				</a>		    
+				    	</div>
+				    </div>
+				    <!-- Имя -->
+				    <div class="row">
+				    	<div class="col-md-6 col-md-offset-3">
+				    		<a class="text-center" href="index.html"><h1>Ирина Бескоровайная</h1></a>
+		    			</div>
+				    </div>
+				    <div class="row">
+				    	<div class="col-md-12">
+				    		<div class="decoration-line"><img class="img-responsive" src="img/curve.png" alt=""></div>
+				    	</div>
+				    </div>
+				    
+				</div><!-- container -->
+		    </nav>
+   	    </header>
+   	    <div class="wrapper">
+		    <section>
+		    	<div class="container"> <!-- container -->
+			    		<!-- Знак вопроса -->
+			    		<div class="row">
+					    	<div class="col-md-12">
+						    	<div class="question">
+						    		<figure class="text-center">
+						    			<img id="Question-Mark" src="img/Question-Mark.png" alt="">
+						    			<figcaption class="hidden">Question-Mark</figcaption>
+						    		</figure>
+						    	</div>
+					    	</div>
+					    </div>
+					    <!-- Опрос -->
+					    <div class="row">
+					    	<div class="col-md-12">
+					    		<h2 class="text-center">Опрос!</h2>
+					    	</div>
+					    </div>
+					    <div class="row">
+					    	<div class="col-md-12">
+					    		<form action="php/post.php" method="POST">
+						    		<ul class="questions">
+						    			<li>
+						    				<h4>Как я могу улучшить свой сайт?</h4>
+						    				<input id="dorabotatj" type="checkbox" name="dorabotatj">
+						    				<label for="dorabotatj"><span></span>Доработать основные разделы</label>
+						    				<br>
+						    				<input id="more-info" type="checkbox" name="more-info">
+						    				<label for="more-info"><span></span>Добавить больше информации</label>
+						    				<br>
+						    				<input id="design" type="checkbox" name="design">
+						    				<label for="design"><span></span>Изменить дизайн</label>
+						    			</li>
+						    			<li>		    			
+						    				<h4>Каких разделов не хватает на сайте?</h4>
+						    				<select class="form-control" name="razdel">
+											  <option>Форум</option>
+											  <option>Блог</option>
+											  <option>Отзывы</option>
+											</select>
+						    			</li>
+						    			<li>
+						    				<h4>Возможно стоит поменять цветовую палитру?</h4>
+											<input id="no" type="radio" name="change the palette">
+						    				<label for="no"><span></span>Нет</label>
+						    				<br>
+						    				<input id="yes" type="radio" name="change the palette">
+						    				<label for="yes"><span></span>Да, стоит поменять</label>
+						    				<br>
+						    			</li>
+						    			<li>
+						    				<h4>Если да, то выберите какую</h4>
+											<input id="1" type="radio" name="select the palette">
+						    				<label class="figure" for="1"><span></span>1
+						    					<figure class="input">
+												  	<img class="img-responsive" src="img/palette1.png">
+												  	<figcaption class="hidden">palette1	  		
+												  	</figcaption>
+												  </figure>
+						    				</label>
+						    				<input id="2" type="radio" name="select the palette">
+						    				<label class="figure" for="2"><span></span>2
+						    					<figure class="input">
+												  	<img class="img-responsive" src="img/palette2.png">
+												  	<figcaption class="hidden">palette2	  		
+												  	</figcaption>
+												  </figure>
+						    				</label>
+						    				<input id="3" type="radio" name="select the palette">
+						    				<label class="figure" for="3"><span></span>3
+						    					<figure class="input">
+												  	<img class="img-responsive" src="img/palette3.png">
+												  	<figcaption class="hidden">palette3	  		
+												  	</figcaption>
+												  </figure>
+						    				</label>
+						    			</li>
+										<li>		    			
+						    				<h4>Ваше общее впечатление о сайте?</h4>
+											<input id="positivno" type="radio" name="impression">
+						    				<label for="positivno"><span></span>Позитивное</label>
+						    				<br>
+						    				<input id="scuchno" type="radio" name="impression">
+						    				<label for="scuchno"><span></span>Скучновато</label>
+						    				<br>
+					    				</li>
+						    			<li>
+						    				<h4>Угадайте мой любимый цвет ;)</h4>
+						    				<input type="color" name="">
+						    			</li>
+						    			<li>
+						    				<h4>Введите пожалуйста Ваши данные</h4>
+							    			<p>Имя:</p>
+										    <p><input class="form-control" type="text" name="name"></p>
+										    <p>E-mail:</p>
+										    <p><input class="form-control" type="text" name="email"></p>
+										    <p>Сообщение:</p>
+										    <p><textarea class="form-control" rows="10" cols="30" name= "message"></textarea></p><input class="form-control" type="submit" value="Отправить">
+				 						</li>
+						    		</ul>
+						    	</form>
+					    	</div>
+					    </div>
+					    <!-- Распорка -->
+						<div class="row">
+						    <div class="col-md-12">
+								<div class="rasporka"></div>
+						    </div>
+					    </div>
+				</div><!-- container -->
+			</section>
+			<!-- Футер -->
+			<footer>
+			    <div class="container-fluid">
+			        <div class="row">
+				        <div class="col-md-12">
+				        	<p id="Copyright"> &copy; Copyright 2016</p>
+				        </div>
+				    </div>
+				</div>
+			</footer>
+		</div>
+		<!-- JS -->
+	    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+	    <script type="text/javascript" src="js/bootstrap.min.js"></script>	
+	</body>
+	
+</html>
